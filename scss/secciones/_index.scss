@@ -1,0 +1,29 @@
+main{
+    background-color: darkgray;
+    h1{
+        text-decoration: underline;
+        text-align: center;
+        margin: 10px;
+        padding: 10px;
+    }
+    div{
+        text-align: center;
+
+        a{
+           color: white;
+           background-color: black;
+           text-decoration: none;
+           &:hover{
+               background-color: burlywood;
+           }
+        }
+    }
+    .parrafo1{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 1em;
+    }
+    .parrafo2{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+        
+}
